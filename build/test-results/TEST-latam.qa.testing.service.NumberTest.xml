@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="latam.qa.testing.service.NumberTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-12-03T15:52:56" hostname="localhost.localdomain" time="0.022">
+<testsuite name="latam.qa.testing.service.NumberTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-12-03T17:38:34" hostname="localhost.localdomain" time="0.028">
   <properties/>
+  <testcase name="divideCero" classname="latam.qa.testing.service.NumberTest" time="0.013"/>
   <testcase name="creatingString_twoSimpleNumbers_mustFail" classname="latam.qa.testing.service.NumberTest" time="0.005"/>
-  <testcase name="creatingString_twoSimpleNumbers_ReturnStringWithCommaBetween" classname="latam.qa.testing.service.NumberTest" time="0.01"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="numeroConocido" classname="latam.qa.testing.service.NumberTest" time="0.001"/>
+  <testcase name="creatingString_twoSimpleNumbers_ReturnStringWithCommaBetween" classname="latam.qa.testing.service.NumberTest" time="0.001"/>
+  <system-out><![CDATA[No se pueden realizar divisiones por 0
+Division 1=2
+Division 2=4
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
