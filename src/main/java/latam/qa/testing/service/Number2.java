@@ -7,9 +7,13 @@ public class Number {
     }
 
    public int divideNumeros(int a, int b){
+	if(b==0){
+return 0;
+}else{
 int retorno = a/b;
 return retorno;
 }
 	
 
+}
 }
